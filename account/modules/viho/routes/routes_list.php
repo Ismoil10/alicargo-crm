@@ -15,7 +15,6 @@ LEFT JOIN ac_location AS loc ON loc.ID = acm.LOCATION_ID
 LEFT JOIN gl_sys_users AS user ON user.ID = acm.EMPLOYEE_ID
 WHERE acm.ACTIVE = 1");
 
-//$status = ['new' => ""]
 ?>
 
 
