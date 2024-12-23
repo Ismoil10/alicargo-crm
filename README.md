@@ -11,13 +11,21 @@ Additional Tools: AJAX
 
 Developed Modules
 Admin Module (adminka): Allows administrators to add new customers.
+
 Delivery Module (delivery): Manages customer orders.
+
 Employee Module (employee): Handles employee management.
+
 Yandex Delivery Module (yandex_dostavka): Manages the locations of customers using the Yandex order type.
+
 Order Report Module (orders_report): Provides tools for managing order reports.
+
 Postal Delivery Module (pochta): Manages orders delivered via mail.
+
 Marketing Module (marketing): Tracks general user statistics.
+
 Routes Module (routes): Assigns routes to drivers for delivering orders.
+
 Telegram Messaging Module (tg_rassilka): Implements an algorithm for sending messages to customers via Telegram bots.
 
 Project Highlights
