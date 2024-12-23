@@ -9,12 +9,14 @@ Frontend: HTML, CSS, Bootstrap, JavaScript, jQuery
 Backend: PHP, MySQL
 Additional Tools: AJAX
 
+
 Project Structure
 All modules are located in the "modules" folder.
 
 AJAX-related files are located in the "ajax" folder.
 
 A cron script has been developed to automate recurring operations.
+
 
 Developed Modules
 Admin Module (adminka): Allows administrators to add new customers.
@@ -34,6 +36,7 @@ Marketing Module (marketing): Tracks general user statistics.
 Routes Module (routes): Assigns routes to drivers for delivering orders.
 
 Telegram Messaging Module (tg_rassilka): Implements an algorithm for sending messages to customers via Telegram bots.
+
 
 Project Highlights
 
