@@ -11,7 +11,9 @@ Additional Tools: AJAX
 
 Project Structure
 All modules are located in the "modules" folder.
+
 AJAX-related files are located in the "ajax" folder.
+
 A cron script has been developed to automate recurring operations.
 
 Developed Modules
