@@ -3,7 +3,7 @@
 class db {
 	
 static function conn (){
-$conn = new mysqli('localhost','root','evosoft050','alicargo');
+$conn = new mysqli('localhost','<username>','<password>','<database>');
 $conn->set_charset('utf8mb4');
 if ($conn->connect_error) {die('Connection faield:'.$conn->connect_error);}
 else{$rs = $conn;}
@@ -78,7 +78,7 @@ $rassilka = db::arr_s("SELECT * FROM `tg_rassilka` WHERE ID = '$v[RASSILKA_ID]'"
 $get_doc = json_decode($rassilka['FILE_URL'], true);
 
 //$token = "5766599313:AAHI7hO_0y19clu2colHcLvtruZv9I_2O4U";
-$token = "5766599313:AAHmC_YLtN8L5WHBpDD1KwKsCQVbyr9AWfo";
+$token = "<telegram bot token>";
 
 $api_url = "https://api.telegram.org/bot" . $token . "/sendPhoto?";
 $video_url = "https://api.telegram.org/bot" . $token . "/sendVideo?";
@@ -149,8 +149,7 @@ foreach (db::arr("SELECT * FROM `message_log` WHERE `STATUS`=2") as $v) {
 try
 { 
 
-//$token = "5766599313:AAHI7hO_0y19clu2colHcLvtruZv9I_2O4U";
-$token = "5766599313:AAHmC_YLtN8L5WHBpDD1KwKsCQVbyr9AWfo";
+$token = "telegram bot token";
 
 $api_url = "https://api.telegram.org/bot" . $token . "/deleteMessage?";
 
