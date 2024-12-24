@@ -4,10 +4,10 @@ Alicargo CRM
 Alicargo CRM is a comprehensive system for managing orders, reports, employees, and customer interactions. 
 The project consists of various modules designed to handle specific functionalities, with all modules organized under the /modules folder. AJAX files are located in the /ajax folder.
 
-Key Technologies
+Main Technologies
 Frontend: HTML, CSS, Bootstrap, JavaScript, jQuery
 Backend: PHP, MySQL
-Additional Tools: AJAX
+Additional Tools: AJAX, Cron Job
 
 
 Project Structure
